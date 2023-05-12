@@ -45,8 +45,22 @@
     <input type="submit" value="Predict" >
   </div>
 </form>
- <h2>
-    The Prediction is {{results}}
- </h2>
+  <!-- Results -->
+  {% if results is defined %}
+  <div class="row mt-5">
+    <div class="col-lg-12">
+      <div class="card text-center">
+        <div class="card-header">
+          Prediction Result
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">The Predicted Yield is:</h5>
+          <p class="card-text display-4">{{ results }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
 </body>
 </html>
