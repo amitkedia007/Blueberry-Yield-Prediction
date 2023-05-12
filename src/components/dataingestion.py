@@ -39,7 +39,7 @@ class DataIngestion:
             )
 
         except Exception as e:
-            raise CustomException(e, sys)
+            raise CustomExeption(e, sys)
 
 if __name__ == "__main__":
     # Data Ingestion

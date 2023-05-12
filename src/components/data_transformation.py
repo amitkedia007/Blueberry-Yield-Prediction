@@ -23,7 +23,7 @@ class DataTransformation:
 
             logging.info("Read train and test data completed")
 
-            Variables_to_remove = ['fruitmass', 'seeds', 'AverageOfLowerTRange', 'MinOfLowerTRange',
+            Variables_to_remove = ['id', 'fruitmass', 'seeds', 'AverageOfLowerTRange', 'MinOfLowerTRange',
                                    'AverageRainingDays', 'MinOfUpperTRange', 'MaxOfLowerTRange', 'AverageOfUpperTRange']
 
             target_variable = "yield"
@@ -43,7 +43,7 @@ class DataTransformation:
 
             save_object(
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
-                obj=None  # Update this with the proper preprocessor object as needed
+                obj=None  
             )
 
             return (
@@ -53,4 +53,4 @@ class DataTransformation:
             )
 
         except Exception as e:
-            raise CustomException(e, sys)
+            raise CustomExeption(e, sys)

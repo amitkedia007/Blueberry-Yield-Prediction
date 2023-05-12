@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blueberry Growth Prediction</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h2 class="text-center my-4">Blueberry Growth Prediction</h2>
+<form action="{{ url_for('predict_datapoint')}}" method="POST" class="mx-auto" style="width: 300px;">
+  <div class="form-group">
+    <label for="cloneSize">Clone Size (m2)</label>
+    <input type="text" class="form-control" id="cloneSize" name="cloneSize" min="10" max="40" required>
+  </div>
+  <div class="form-group">
+    <label for="honeybee">Honeybee Density (bees/m2/min)</label>
+    <input type="text" class="form-control" id="honeybee" name="honeybee" min="0" max="18.43" required>
+  </div>
+  <div class="form-group">
+    <label for="bumbles">Bumblebee Density (bees/m2/min)</label>
+    <input type="text" class="form-control" id="bumbles" name="bumbles" min="0" max="0.585" required>
+  </div>
+  <div class="form-group">
+    <label for="andrena">Andrena Density (bees/m2/min)</label>
+    <input type="text" class="form-control" id="andrena" name="andrena" min="0" max="0.75" required>
+  </div>
+  <div class="form-group">
+    <label for="osmia">Osmia Density (bees/m2/min)</label>
+    <input type="text" class="form-control" id="osmia" name="osmia" min="0" max="0.75" required>
+  </div>
+  <div class="form-group">
+    <label for="maxUpperTRange">Max of Upper T Range (℃)</label>
+    <input type="text" class="form-control" id="maxUpperTRange" name="maxUpperTRange" min="69.7" max="94.6" required>
+  </div>
+  <div class="form-group">
+    <label for="rainingDays">Raining Days (Day)</label>
+    <input type="text" class="form-control" id="rainingDays" name="rainingDays" min="1" max="34" required>
+  </div>
+  <div class="form-group">
+    <label for="fruitset">fruitset</label>
+    <input type="text" class="form-control" id="fruitset" name="fruitset" min="0.01" max="0.7" required>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Predict" >
+  </div>
+</form>
+ <h2>
+    The Prediction is {{results}}
+ </h2>
+</body>
+</html>
