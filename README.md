@@ -1,6 +1,6 @@
 # Blueberry Yield Prediction
 
-This project utilizes Machine Learning to predict the yield of blueberry crops based on various factors such as clone size, density of different bees, temperature range, raining days, and fruitset. The application is built using Python, Flask, XGBoost, and deployed on a local server. It provides a user-friendly web interface for users to input relevant parameters and get yield predictions instantly.
+This project utilizes Machine Learning to predict the yield of blueberry crops based on various factors such as clone size, density of different bees, temperature range, raining days, and fruitset. The application is built using Python, Flask, CatBoost, and deployed on a local server. It provides a user-friendly web interface for users to input relevant parameters and get yield predictions instantly.
 
 ## Table of Contents
 
@@ -59,6 +59,6 @@ The machine learning model trained on this dataset: https://www.kaggle.com/compe
 
 ## Contact
 
-Your Name - amitkedia3000@gmail.com
+Email - amitkedia3000@gmail.com
 
 Project Link: amitkedia007/Blueberry-Yield-Prediction
