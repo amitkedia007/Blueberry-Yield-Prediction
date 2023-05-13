@@ -25,8 +25,8 @@ To get a local copy up and running, follow these steps:
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone 
+    ```sh 
+    gh repo clone amitkedia007/Blueberry-Yield-Prediction
     ```
 2. Install Python packages
     ```sh
