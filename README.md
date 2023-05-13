@@ -39,7 +39,7 @@ To get a local copy up and running, follow these steps:
    
 ## Usage
 
-1. Open the application in your web browser.
+1. Open the application in your web browser. use this link to open the project locally : (http://localhost:5000/predictdata)
 2. Input the required parameters in the form.
 3. Click 'Predict' to get the predicted yield.
 
