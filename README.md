@@ -19,7 +19,7 @@ To get a local copy up and running, follow these steps:
 - Python 3.7 or newer
 - Flask
 - Linear Regression, Lasso, Ridge, K-Neighbors Regressor, Decision Tree, Random Forest Regressor
-            XGBRegressor, CatBoosting Regressor, AdaBoost Regressor
+  XGBRegressor, CatBoosting Regressor, AdaBoost Regressor
 - Pandas, Numpy, Sckit-learn
 
 ### Installation
@@ -55,10 +55,10 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+The machine learning model trained on this dataset: https://www.kaggle.com/competitions/playground-series-s3e14/data
 
 ## Contact
 
 Your Name - amitkedia3000@gmail.com
 
-Project Link:
+Project Link: amitkedia007/Blueberry-Yield-Prediction
