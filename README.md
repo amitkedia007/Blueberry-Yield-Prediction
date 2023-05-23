@@ -40,8 +40,13 @@ To get a local copy up and running, follow these steps:
 ## Usage
 
 1. Open the application in your web browser. use this link to open the project locally : (http://localhost:5000/predictdata)
+![image](https://github.com/amitkedia007/Blueberry-Yield-Prediction/assets/83700281/aef45941-5e94-4bb1-838b-346d2484b830)
+
 2. Input the required parameters in the form.
+![image](https://github.com/amitkedia007/Blueberry-Yield-Prediction/assets/83700281/eac78da9-0188-47b5-8b91-ab1a4b173305)
+
 3. Click 'Predict' to get the predicted yield.
+![image](https://github.com/amitkedia007/Blueberry-Yield-Prediction/assets/83700281/f52aed70-4f48-42af-bf77-b4195c0bafa2)
 
 ## Contributing
 
